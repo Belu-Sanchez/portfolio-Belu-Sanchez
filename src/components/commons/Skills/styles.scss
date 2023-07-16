@@ -1,0 +1,33 @@
+.skills-section {
+  height: 100cvh;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 30pxt;
+  background-image: url(../../../assets/fondo-skills.svg);
+  color: white;
+  position: relative;
+  z-index: -1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .tech-icons {
+    font-size: 4.5em;
+    margin: 15px;
+    padding: 10px;
+    opacity: 0.93;
+    border: 1.7px solid #e4559f;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 5px;
+    display: table;
+    box-shadow: 4px 5px 4px 3px #e4559f45;
+    overflow: hidden;
+    transition: all 0.4s ease 0s;
+
+    @media (max-width: 767px) {
+      .tech-icons {
+        margin: 10px;
+      }
+    }
+  }
+}

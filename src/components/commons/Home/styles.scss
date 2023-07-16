@@ -1,0 +1,34 @@
+.home-section {
+  position: relative;
+  z-index: -1;
+  background-image: url(../../../assets/fondo-home.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  .home-content {
+    padding: 9rem 0 2rem;
+    color: whitesmoke;
+    text-align: left;
+
+    .home-header {
+      padding-top: 80px;
+      .heading {
+        font-size: 2.4em;
+        padding-left: 50px;
+      }
+
+      .heading-name {
+        font-size: 2.5em;
+        padding-left: 45px;
+      }
+
+      .main-name {
+        color: #e4559f;
+      }
+    }
+  }
+}

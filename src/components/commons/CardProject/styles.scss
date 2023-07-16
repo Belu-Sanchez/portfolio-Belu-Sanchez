@@ -1,0 +1,77 @@
+.project-section {
+  height: 100cvh;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 30px;
+  background-image: url(../../../assets/fondo-projects.svg);
+  color: white;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .project-heading {
+    color: white;
+    font-size: 2.3em;
+    font-weight: 500;
+    padding-top: 10px;
+  }
+
+  .projects-section {
+    display: flex;
+    justify-content: space-around;
+
+    @media (max-width: 767px) {
+      .projects-section {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+      }
+    }
+  }
+
+  .project-card-view {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+    box-shadow: 0 4px 5px 3px rgba(239, 81, 187, 0.459);
+    color: white;
+    background-image: linear-gradient(
+      to top,
+      rgba(237, 153, 125, 0.435),
+      rgba(186, 51, 10, 0.02),
+      rgba(236, 142, 184, 0.384)
+    );
+    opacity: 0.9;
+    transition: all 0.5s ease 0s;
+    margin: 1em;
+    h3 {
+      text-align: center;
+    }
+    p {
+      text-align: justify;
+    }
+    .btn {
+      color: #fff;
+      background-color: #cb67afba;
+      border-color: #d51e6468;
+      &:hover {
+        box-shadow: 0 0 5px #e4559f;
+        text-shadow: 0 0 2px #e4559f;
+        background-color: #cb67afba;
+        border-color: #d51e6468;
+      }
+      &:hover:active {
+        box-shadow: 0 0 5px #e4559f;
+        text-shadow: 0 0 2px #e4559f;
+        background-color: #cb67af;
+        border-color: #d51e6468;
+      }
+    }
+    @media (max-width: 767px) {
+      .col-4 {
+        flex: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.resume-section {
+  position: relative;
+  padding-top: 110px;
+  padding-bottom: 30px;
+  background-image: var(--section-background-color);
+  color: white;
+  .btn {
+    color: #fff;
+    background-color: #cb67afba;
+    border-color: #d51e6468;
+
+    &:hover {
+      box-shadow: 0 0 5px #e4559f;
+      text-shadow: 0 0 2px #e4559f;
+      background-color: #cb67afba;
+      border-color: #d51e6468;
+    }
+    &:hover:active {
+      box-shadow: 0 0 5px #e4559f;
+      text-shadow: 0 0 2px #e4559f;
+      background-color: #cb67af;
+      border-color: #d51e6468;
+    }
+  }
+
+  .react-pdf__Page__textContent {
+    height: 0px !important;
+  }
+}
