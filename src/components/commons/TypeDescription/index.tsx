@@ -7,7 +7,7 @@ function TypeDescription() {
       options={{
         strings: [
           "Desarrollador Front End ",
-          "Diseñadora UX/IU",
+          "Diseñadora UX/UI",
           "Diseñadora de indumentaria",
         ],
         autoStart: true,
