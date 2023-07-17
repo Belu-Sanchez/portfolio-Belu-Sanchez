@@ -68,10 +68,12 @@
         border-color: #d51e6468;
       }
     }
-    @media (max-width: 767px) {
-      .col-4 {
-        flex: none;
-      }
-    }
+ 
   }
 }
+   @media (min-width: 200px) and (max-width: 870px) {
+    .col-4  {
+        flex: none !important;
+        width: 100% !important;
+      }
+    }
