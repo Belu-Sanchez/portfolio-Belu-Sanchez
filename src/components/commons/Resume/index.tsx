@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
-import pdf from "../../../assets/cv-Sanchez-Maria-Belen.pdf";
-import imgPdf from "../../../assets/cv-it-Sanchez-Maria-Belen.pdf";
+import pdf from "../../../assets/cv-it-Sanchez-Maria-Belen.pdf";
+import imgPdf from "../../../assets/cv-Sanchez-Maria-Belen-img.pdf";
 
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
